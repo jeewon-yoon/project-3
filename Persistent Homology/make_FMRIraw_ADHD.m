@@ -1,6 +1,6 @@
 clear all;
 
-% Creating .mat file list into designated directory 
+% change directory and filename
 filename = ['*.mat']; 
 current_path = [pwd '/'];
 filelist = dir([current_path filename]);
