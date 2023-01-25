@@ -20,16 +20,6 @@ function single_linkage_dendrogram(D,disp_option,nc)
 % [max_dist] = dendrogram(MST);
 %
 %
-% The code is downloaed from https://sites.google.com/site/hkleebrain/home/persistent-homology-2
-%
-% (C) Hyekyoung Lee, hklee.brain@gmail.com
-%  Department of Nuclear Medicine
-%  Seoul National University, South Korea
-%
-% 
-% If you use this code, please reference one of the following papers. The details on
-% the mathematical basis of of the algorithm can be found in these papers.
-%
 % [1] Lee, H., Kang, H.K., Chung, M.K., Kim, B.-N., Lee, D.S. 2012. 
 %     Persistent brain network homology from the perspective of dendrogram, 
 %     IEEE Transactions on Medical Imaging. in press. 
@@ -41,8 +31,7 @@ function single_linkage_dendrogram(D,disp_option,nc)
 %     https://docs.google.com/file/d/0BzqCeYxcOj3bYWU5YzhhYzYtM2Q4NC00YTFmL
 %     WE4YWItZjkwZjI5ZThkNjlk/edit?pli=1
 %
-% Update history: Sep 13, 2017
-
+%
 % Default: disp_option == 'distance' 
 if nargin == 1, 
     disp_option = 'distance'; 
