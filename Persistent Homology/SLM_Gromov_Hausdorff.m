@@ -1,10 +1,11 @@
 clear all; 
 close all; 
 
-load('VO_0033_ROI.mat'); 
-load('VO_D001_ROI.mat');
-x(:,:,1) = VO_0033_ROI; 
-x(:,:,2) = VO_D001_ROI; 
+% Load brain matrix (e.g.: X1.mat, X2.mat)
+load('X1.mat'); 
+load('X2.mat');
+x(:,:,1) = X1; 
+x(:,:,2) = X2; 
 
 C = []; D = []; SLM = []; MST = []; 
 for i = 1:2, 
